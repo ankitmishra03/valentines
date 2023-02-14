@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Document</title>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      margin-top: 0px;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background-color: rgb(31, 31, 31);
+    }
+
+    #no-button {
+      position: absolute;
+      white-space: nowrap;
+      font-size: 2rem;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 1px 1px 5px black;
+      /* background-color: white; */
+      /* right: 0px;  */
+    }
+    #yes-button {
+      position: absolute;
+      white-space: nowrap;
+      font-size: 2rem;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 1px 1px 5px black;
+      /* background-color: white; */
+      left: 600px; 
+    }
+    h1{
+      color: azure;
+    }
+    .content {
+      /* max-width: 500px;
+      margin: auto; */
+      position: absolute;
+  /* width: 300px;
+  height: 200px; */
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -300px;
+  /* background: red; */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content" >
+    <h1>Will you go on a date with me in future?</h1>
+  </div>
+    <button id="no-button" style="left: 868.659px; top: 500px;" type="button" class="btn btn-danger">No! And Never ask me about it!</button>
+    <button id="yes-button"  style="top: 500px;" type="button" class="btn btn-success">Yeah! Sure!</button>
+ 
+
+</body>
+</html>
